@@ -32,7 +32,9 @@ for i in range(len(b)):
     if b[i] == 0:
         b[i] = letters_li[cnt]
         cnt += 1
-print b
+
+reversed_string = ''.join(map(str, b))
+print reversed_string
 
 """
 ###### Web Solution for the problem ######
